@@ -1,0 +1,33 @@
+Aufgabe 1:
+
+http://localhost:1337/2025/06/02
+
+
+Aufgabe2:
+
+http://localhost:1337/names?name=Manuel
+
+
+Aufgabe 3:
+
+http://localhost:1337/2025/06/02/names?name=Manuel
+
+
+Aufgabe 4:
+
+URL: 
+http://localhost:1337/blog
+Methode: POST
+Body (Json):
+{
+  "author": "Marcel Erb",
+  "title": "Mein erster Blog-Post",
+  "text": "Das ist der Inhalt meines ersten Blog-Posts."
+}
+
+
+Alle Posts Anzeigen:
+http://localhost:1337/blog
+
+Einzelnen Post abrufen: 
+http://localhost:1337/blog/1

@@ -1,0 +1,15 @@
+Aufgabe: JSON
+    GET     
+    http://localhost:3000/blog/ 
+
+    POST    http://localhost:3000/blog/     
+    Body:
+{
+  "author": "Marcel Erb",
+  "title": "Testreport",
+  "text": "Inhalt vom Testreport"
+}
+
+Aufgabe: Formular und Aufgabe: Fileupload (*)
+
+http://localhost:3000/blog/newpost

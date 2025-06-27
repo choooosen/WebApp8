@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Neuer Blogeintrag</title>
+</head>
+<body>
+  <h1>Neuen Blogeintrag erstellen</h1>
+
+  <form action="/blog" method="POST" enctype="multipart/form-data">
+    <label for="author">Autor:</label><br>
+    <input type="text" id="author" name="author" required><br><br>
+
+    <label for="title">Titel:</label><br>
+    <input type="text" id="title" name="title" required><br><br>
+
+    <label for="text">Text:</label><br>
+    <textarea id="text" name="text" rows="6" cols="40" required></textarea><br><br>
+
+    <label for="image">Bild hochladen:</label><br>
+    <input type="file" id="image" name="image" accept="image/*"><br><br>
+
+    <button type="submit">Eintrag erstellen</button>
+  </form>
+</body>
+</html>

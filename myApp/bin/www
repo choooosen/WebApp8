@@ -1,0 +1,55 @@
+#!/usr/bin/env node
+
+const app = require('../app'); // Holt die Express-App
+const http = require('http');
+const debug = require('debug')('myapp:server');
+
+// Port setzen
+const port = normalizePort(process.env.PORT || '3000');
+app.set('port', port);
+
+// HTTP-Server erstellen
+const server = http.createServer(app);
+
+// Server starten
+server.listen(port);
+server.on('error', onError);
+server.on('listening', onListening);
+
+// Port normalisieren (String oder Zahl)
+function normalizePort(val) {
+  const port = parseInt(val, 10);
+  if (isNaN(port)) return val; // named pipe
+  if (port >= 0) return port;  // port number
+  return false;
+}
+
+// Fehlerbehandlung
+function onError(error) {
+  if (error.syscall !== 'listen') throw error;
+
+  const bind = typeof port === 'string'
+    ? 'Pipe ' + port
+    : 'Port ' + port;
+
+  switch (error.code) {
+    case 'EACCES':
+      console.error(bind + ' erfordert höhere Rechte');
+      process.exit(1);
+    case 'EADDRINUSE':
+      console.error(bind + ' ist bereits in Benutzung');
+      process.exit(1);
+    default:
+      throw error;
+  }
+}
+
+// Beim Start loggen
+function onListening() {
+  const addr = server.address();
+  const bind = typeof addr === 'string'
+    ? 'pipe ' + addr
+    : 'port ' + addr.port;
+  debug('Listening on ' + bind);
+  console.log(`Server läuft auf http://localhost:${port}`);
+}

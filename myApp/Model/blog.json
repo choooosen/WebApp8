@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "date": "2025-06-15T10:00:00.000Z",
+    "author": "Marcel Erb",
+    "title": "Mein erster Blogeintrag",
+    "text": "Inhalt meines ersten Blogeintrags."
+  },
+  {
+    "id": 2,
+    "date": "2025-06-15T11:30:00.000Z",
+    "author": "Marcel Erb",
+    "title": "Mein zweiter Blogeintrag",
+    "text": "Inhalt meines zweiten Blogeintrags."
+  },
+  {
+    "id": 3,
+    "date": "2025-06-15T12:29:15.481Z",
+    "author": "Lisa Müller",
+    "title": "Mein erster Testpost",
+    "text": "Dies ist ein automatisch gesendeter Blogeintrag via Thunder Client."
+  },
+  {
+    "id": 4,
+    "date": "2025-06-15T13:01:27.846Z",
+    "author": "Marcel Erb",
+    "title": "Neuer Blog",
+    "text": "TExt vom Blog"
+  },
+  {
+    "id": 5,
+    "date": "2025-06-15T13:17:08.159Z",
+    "author": "Marcel Erbasda",
+    "title": "Neuer Blogsdasd",
+    "text": "TESTETasdasd",
+    "image": "/uploads/1749993428153-Screenshot 2025-04-27 193122.png"
+  },
+  {
+    "id": 6,
+    "date": "2025-06-15T13:19:23.707Z",
+    "author": "Marcel Erbasda",
+    "title": "Neuer Blogsdasdfgsdfg",
+    "text": "TESTETasdasddfsgdsfgsdfg",
+    "image": "/uploads/1749993563705-Screenshot 2025-04-27 193122.png"
+  },
+  {
+    "id": 7,
+    "date": "2025-06-15T13:19:37.968Z",
+    "author": "Marcel Erbasda",
+    "title": "Neuer Blogsdasdfgsdfg",
+    "text": "TESTETasdasddfsgdsfgsdfg",
+    "image": "/uploads/1749993577964-Sperrbildschirm.jpg"
+  },
+  {
+    "id": 8,
+    "date": "2025-06-16T13:37:40.546Z",
+    "author": "Marcel Erb",
+    "title": "Titel",
+    "text": "testtest",
+    "image": "/uploads/1750081060535-Sperrbildschirm.jpg"
+  },
+  {
+    "id": 9,
+    "date": "2025-06-16T13:57:04.499Z",
+    "author": "Marcel Erb",
+    "title": "Titel",
+    "text": "testtest",
+    "image": "/uploads/1750082224493-Sperrbildschirm.jpg"
+  }
+]
